@@ -1,0 +1,1 @@
+https://diekmann.github.io/openttd-web-publishing/
