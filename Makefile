@@ -2,7 +2,7 @@
 openttd := $(PWD)/OpenTTD
 
 all:
-	git clone git@github.com:OpenTTD/OpenTTD.git || echo reusing local checkout
+	git clone https://github.com/OpenTTD/OpenTTD.git || echo reusing local checkout
 	cd OpenTTD;	pwd; git checkout 'origin/release/12'
 	# https://github.com/OpenTTD/OpenTTD/tree/master/os/emscripten
 	cd OpenTTD/os/emscripten; docker build -t emsdk-lzma .
