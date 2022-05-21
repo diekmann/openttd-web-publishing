@@ -1,1 +1,1 @@
-https://diekmann.github.io/openttd-web-publishing/
+https://diekmann.github.io/openttd-web-publishing/openttd.html
