@@ -5,7 +5,7 @@ ROOTLESS_DOCKER := $(shell docker info 2>/dev/null | grep -q rootless && echo 1 
 ifeq ($(ROOTLESS_DOCKER), 1)
 	DOCKER_USER := 
 else
-	DOCKER_USER := -u $(shell id -u):$(shell id -g)
+	DOCKER_USER := -u $(shell id -u):$(shell id -g) 
 endif
 
 all:
